@@ -83,22 +83,4 @@ public class StringCode {
         return false;
     }
 
-    // Quick test main
-    public static void main(String[] args) {
-        System.out.println("maxRun:");
-        System.out.println(maxRun("xxyyyz"));
-        System.out.println(maxRun("xyz"));
-        System.out.println(maxRun(""));
-        System.out.println(maxRun("aaaa"));
-
-        System.out.println("\nblowup:");
-        System.out.println(blowup("a3tx2z"));
-        System.out.println(blowup("12x"));
-        System.out.println(blowup("a0b1c"));
-
-        System.out.println("\nstringIntersect:");
-        System.out.println(stringIntersect("abcdef", "xyzcdmn", 2));
-        System.out.println(stringIntersect("abcdef", "xyzcdmn", 3));
-        System.out.println(stringIntersect("hello", "yellow", 3));
-    }
 }

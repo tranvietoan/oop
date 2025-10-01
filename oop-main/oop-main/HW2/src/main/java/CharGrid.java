@@ -80,16 +80,4 @@ public class CharGrid {
         return count;
     }
 
-    public static void main(String[] args) {
-        char[][] sampleGrid = {
-                {' ', 'X', ' '},
-                {'X', 'X', 'X'},
-                {' ', 'X', ' '}
-        };
-
-        CharGrid cg = new CharGrid(sampleGrid);
-
-        System.out.println( cg.charArea('X'));
-        System.out.println( cg.countPlus());
-    }
 }
